@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menubar{
+    background:rgb(116, 15, 116);
+    text-align: center;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active,.menubar ul li:hover{
+    background: violet;
+    border-radius: 3px;
+}
+h1{
+    text-align: center;
+    color: rgb(105, 11, 105);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.img3{
+    border: 1px solid;
+    border-width: 10px;
+    border-color:rgb(110, 10, 110);
+    text-align: center;
+}
+.photo{
+    height: 650px;
+    width: 1000px;
+}
+
+form{
+    padding: 10px;
+    background-color: violet;
+}
+.alert{
+    color: red;
+}
+.contact us{
+    padding: 10px;
+    background-color: violet;
+
+}
+.donation{
+    padding: 10px;
+    color: rgb(100, 12, 100);
+}
+h3{
+    color: rgb(131, 24, 131);
+    font-style: bold;
+}
+.hunger li{
+    color: rgb(114, 17, 114);
+}
